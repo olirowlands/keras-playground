@@ -20,7 +20,7 @@ import numpy as np
 import random
 import sys
 
-path = get_file('Marcus_Aurelius_Meditations.txt', origin="keras-playground/data/Marcus_Aurelius_Meditations.txt")
+path = get_file('Marcus_Aurelius_Meditations.txt', origin="https://raw.githubusercontent.com/olirowlands/keras-playground/master/data/Marcus_Aurelius_Meditations.txt")
 text = open(path).read().lower()
 print('corpus length:', len(text))
 
