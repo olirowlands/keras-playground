@@ -8,7 +8,7 @@ import os
 import numpy
 import sys
 
-raw_text = open("data/lewis-carroll-lstm-recurrent.txt").read().lower()
+raw_text = open("data/Marcus_Aurelius_Meditations.txt").read().lower()
 chars = sorted(list(set(raw_text)))
 char_to_int = dict((c, i) for i, c in enumerate(chars))
 
